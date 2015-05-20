@@ -43,12 +43,26 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>The problem</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>plz work</li>
-</ol>
+    <ul>
+<li>You have a specific task to analyze relationships between one particular variable and a set of others. For example, you are interested in miles per gallon output of a car and what might affect it. </li>
+<li>You have to present your conclusions and the way you came up with them to general public.</li>
+<li>And then you see this:</li>
+</ul>
+
+<pre><code class="r">head(mtcars)
+</code></pre>
+
+<pre><code>##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
@@ -56,10 +70,62 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>What would you do?</h2>
   </hgroup>
   <article data-timings="">
-    
+    <ul>
+<li>You know that the best way to do this is to make lots of plots and linear models. But how would you explain to general public the way came up with this pretty plot?</li>
+</ul>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>You need a shiny app!</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img class=center src="http://40.media.tumblr.com/c0a592a6e36347554351404e50de519e/tumblr_no8mxbNVz61shtwfqo1_1280.jpg" height=323 /></p>
+
+<p class=left><small><a href="http://thinkingaboutbears.tumblr.com/image/118777229359">thinkingaboutbears.tumblr.com</a></small></p>
+
+<ul>
+<li>The app must allow to plot different variables against mpg variable.</li>
+<li>It also should allow to fit linear models and show their summaries as well as plot them.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Introducing MPG-app!</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="pics/scr-1.png" alt="image"></p>
+
+<ul>
+<li>A link</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Source and documentation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>You can chekout the code here: <a href="https://github.com/pased/mpg-app">https://github.com/pased/mpg-app</a></li>
+<li>The documentation is avaliable in the &#39;Documentation&#39; tab of the app.</li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -70,14 +136,32 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='The problem'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='What would you do?'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='You need a shiny app!'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Introducing MPG-app!'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Source and documentation'>
+         5
       </a>
     </li>
   </ul>
