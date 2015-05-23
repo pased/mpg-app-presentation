@@ -56,7 +56,7 @@ head(mtcars)
 
 ![image](pics/scr-1.png)
 
-- A link
+- Try it here [https://pased.shinyapps.io/mpg-app/](https://pased.shinyapps.io/mpg-app/)
 
 ---
 
