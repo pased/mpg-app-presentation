@@ -1,7 +1,7 @@
 ---
 title       : MPG Shiny App
 subtitle    : 
-author      : Sergey P.
+author      : Sergei P.
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -61,5 +61,5 @@ p <- ggplot(mtcars, aes(x=wt, y=mpg)) +
 
 ## Source and documentation
 
-- You can chekout the code here: [https://github.com/pased/mpg-app](https://github.com/pased/mpg-app)
-- The documentation is avaliable in the 'Documentation' tab of the app.
+- You can checkout the code here: [https://github.com/pased/mpg-app](https://github.com/pased/mpg-app)
+- The documentation is available in the 'Documentation' tab of the app.
